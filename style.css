@@ -259,7 +259,7 @@ section {
 		left: 10%;
 	}
 	#grid_falha div a img {
-		height: 170px;
+		height: 70px;
 	}
 	#grid_choque {
 		position: absolute;
@@ -267,7 +267,7 @@ section {
 		left: 50px;
 	}
 	#grid_choque div img {
-		height: 90px;
+		height: 50px;
 	}
 
 }
