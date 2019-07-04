@@ -131,11 +131,10 @@ section {
 
 .marquee1 {
 	font-family: VCR OSD Mono, sans-serif;
-	font-size: 3em;
+	font-size: 3vh;
 	font-variant: small-caps;
-	line-height: 4vh;
+	line-height: 3vh;
 	background-color: #CC3300;
-	padding: 0.3em;
 	position: absolute;
 	bottom: 20px;
 }
