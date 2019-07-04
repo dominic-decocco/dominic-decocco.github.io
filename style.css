@@ -131,9 +131,9 @@ section {
 
 .marquee1 {
 	font-family: VCR OSD Mono, sans-serif;
-	font-size: 3vh;
+	font-size: 5vh;
 	font-variant: small-caps;
-	line-height: 3vh;
+	line-height: 5vh;
 	background-color: #CC3300;
 	position: absolute;
 	bottom: 20px;
@@ -256,18 +256,18 @@ section {
 		position: absolute;
 		height: 370px;
 		width: 350px;
-		left: 10%;
+		left: 13%;
 	}
 	#grid_falha div a img {
-		height: 70px;
+		height: 180px;
 	}
 	#grid_choque {
 		position: absolute;
-		top: 50px;
-		left: 50px;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 	#grid_choque div img {
-		height: 50px;
+		height: 100px;
 	}
 
 }
