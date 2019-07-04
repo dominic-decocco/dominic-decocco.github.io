@@ -1,0 +1,274 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	overflow: hidden;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+}
+
+#container_header {
+	width: 100%;
+	height: 10vh;
+	position: fixed;
+	z-index: 10;
+}
+#navbar {
+	display: flex;
+	width: 100%;
+	height: 10vh;
+	align-items: center;
+	background-color: white;
+}
+
+#navbar ul {
+	list-style: none;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+#navbar ul li {
+	margin: 15px;
+	font-family: oswald;
+	font-size: 22px;
+	text-align: center;
+}
+#navbar ul li a {
+	text-decoration: none;
+	color: black;
+}
+#navbar li a:hover {
+	color: #bd2727;
+	cursor: pointer;
+}
+#navbar ul li img {
+	height: 60px;
+}
+#burger_menu {
+	display: none;
+	margin: auto;
+}
+#burger_menu div {
+	width: 40px;
+	height: 4px;
+	margin: 4px;
+	border-radius: 2px;
+	background-color: black;
+}
+
+
+@media screen and (max-width: 768px) {
+	#navbar {
+		position: absolute;
+		top: 5vh;
+		right: 5vh;
+		width: 10vh;
+		height: 10vh;
+		background-color: white;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border-radius: 3px;
+		opacity: 0.9;
+	}
+	#navbar ul {
+		display: none;
+	}	
+	#burger_menu {
+		display: block;
+	}
+	#background_home {
+		height: 100vh;
+	}
+	#tv_quase {
+		display: none;
+	}
+	#grid_falha {
+		position: absolute;
+		grid-gap: 20px;
+		height: 400px;
+		width: 440px;
+		margin-left: -550px;
+	}
+	#grid_falha div a img {
+		height: 200px;
+	}
+}
+
+section {
+ 	height: 100vh;
+ }
+
+
+#background_home {
+	width: 100%;
+	height: 100vh;
+	background-image: url('Images/Background Home.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+#tv_quase {
+	margin-right: 10px;
+}
+#background_choque {
+	width: 100%;
+	height: 100vh;
+	background-image: url('Images/Background Choque.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+#background_falha {
+	width: 100%;
+	height: 100vh;
+	background-image: url('Images/Background Falha.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+#background_oupm {
+	width: 100%;
+	height: 100vh;
+	background-image: url('Images/Background OUPM.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+#grid_falha {
+	display: grid;
+	grid-gap: 0px 20px;
+	height: 520px;
+	width: 500px;
+	grid-template-columns: auto auto auto;
+	position: absolute;
+	top: 50px;
+	left: 640px;
+	z-index: 0;
+}
+
+#grid_falha div img a {
+	cursor: pointer;
+}
+#background_choque img {
+	position: relative;
+}
+#grid_choque {
+	display: grid;
+	grid-gap: 20px 20px;
+	grid-template-columns: auto auto;
+	position: absolute;
+	top: 1877px;
+	left: 840px;
+	z-index: 0;
+}
+
+.marquee1 {
+	font-family: VCR OSD Mono, sans-serif;
+	font-size: 3em;
+	font-variant: small-caps;
+	line-height: 4vh;
+	background-color: #CC3300;
+	padding: 0.3em;
+	position: absolute;
+	bottom: 20px;
+}
+
+#marquee a {
+	padding-right: 140px;
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+}
+
+@media screen and (min-width: 769px) {
+	#background_oupm {
+		background-image: url('Images/Background OUPM.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 100vh;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+  	#background_oupm {      
+    	background-image: url('Images/M Background OUPM.png');
+    	background-size: none;
+		background-repeat: no-repeat;
+		height: 100vh;
+		width: 100%;
+  	}
+}
+
+@media screen and (min-width: 769px) {
+	#background_choque {
+		background-image: url('Images/Background Choque.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 100vh;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+  	#background_choque {      
+    	background-image: url('Images/M Background Choque.png');
+    	background-size: none;
+		background-repeat: no-repeat;
+		height: 100vh;
+		width: 100%;
+  	}
+}
+
+@media screen and (min-width: 769px) {
+	#background_falha {
+		background-image: url('Images/Background Falha.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 100vh;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+  	#background_falha {      
+    	background-image: url('Images/M Background Falha.png');
+    	background-size: none;
+		background-repeat: no-repeat;
+		height: 100vh;
+		width: 100%;
+  	}
+}
+
+@media screen and (min-width: 769px) {
+	#background_home {
+		background-image: url('Images/Background Home.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 100vh;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+  	#background_home {      
+    	background-image: url('Images/M Background Home.png');
+    	background-size: none;
+		background-repeat: no-repeat;
+		height: 100vh;
+		width: 100%;
+  	}
+}
+
+
+
+
+
+
