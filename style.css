@@ -97,6 +97,16 @@ body {
 	#grid_falha div a img {
 		height: 200px;
 	}
+	#grid_choque {
+		position: absolute;
+		grid-gap: 20px;
+		height: 200px;
+		width: 200px;
+		left: 50px;
+		top: 50px;
+	}
+
+
 }
 
 section {
@@ -164,8 +174,8 @@ section {
 	grid-gap: 20px 20px;
 	grid-template-columns: auto auto;
 	position: absolute;
-	top: 1877px;
-	left: 840px;
+	top: 280px;
+	left: 750px;
 	z-index: 0;
 }
 
