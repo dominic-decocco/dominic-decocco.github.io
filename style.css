@@ -2,6 +2,10 @@
 	font-family: 'VCR';
 	src: url(Fonts/VCR.ttf);
 }
+@font-face {
+	font-family: 'OSWALD';
+	src: url(Fonts/Oswald.ttf);
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -38,7 +42,7 @@ section {
 }
 #navbar ul li {
 	margin: 15px;
-	font-family: 'QuaseOswald';
+	font-family: 'OSWALD';
 	font-size: 22px;
 	text-align: center;
 }
@@ -85,6 +89,7 @@ section {
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
+	overflow: hidden;
 }
 #background_falha {
 	width: 100%;
@@ -93,6 +98,7 @@ section {
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
+	overflow: hidden;
 }
 #background_oupm {
 	width: 100%;
