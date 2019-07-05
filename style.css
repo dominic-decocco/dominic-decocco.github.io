@@ -228,7 +228,6 @@ section {
 		width: 100%;
 		background-color: white;
 		clip-path: circle(40px at 80% 10%);
-		-webkit-clip-path: circle(40px at 90% -10%);
 		transition: all 0.6s ease-out;
 	}
 	#navbar ul {
@@ -251,7 +250,6 @@ section {
 	}
 	#navbar.open {
 		clip-path: circle(1000px at 90% -10%);
-		-webkit-clip-path: circle(1000px at 90% -10%);
 	}
 	#burger_menu.open {
 		transform: rotate(360deg);
