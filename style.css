@@ -110,9 +110,7 @@ section {
 }
 #grid_falha {
 	display: grid;
-	grid-gap: 0px 20px;
-	height: 520px;
-	width: 500px;
+	grid-gap: 10px 10px;
 	grid-template-columns: auto auto auto;
 	position: absolute;
 	top: 50px;
@@ -262,15 +260,14 @@ section {
 	}
 	#grid_falha {
 		position: absolute;
-		height: 370px;
-		width: 350px;
-		left: 13%;
+		left: 5%;
 	}
 	#grid_falha div a img {
-		height: 180px;
+		height: 143px;
 	}
 	#grid_choque {
 		position: absolute;
+		top: 30%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 	}
