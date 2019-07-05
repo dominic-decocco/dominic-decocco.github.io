@@ -1,15 +1,14 @@
+@font-face {
+	font-family: 'QuaseOswald';
+	src: url('Fonts/Oswald.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'QuaseVCR';
+	src: url('Fonts/VCR OSD Mono.ttf') format('truetype');
+}
 * {
 	margin: 0;
 	padding: 0;
-}
-
-@font-face {
-	font-family: Oswald;
-	src: url(Fonts/Oswald.ttf);
-} 
-@font-face {
-	font-family: VCR OSD Mono;
-	src: url(Fonts/VCR OSD Mono.ttf);
 }
 body {
 	height: 100vh;
@@ -43,7 +42,7 @@ section {
 }
 #navbar ul li {
 	margin: 15px;
-	font-family: oswald;
+	font-family: 'QuaseOswald';
 	font-size: 22px;
 	text-align: center;
 }
@@ -136,7 +135,7 @@ section {
 }
 
 .marquee1 {
-	font-family: VCR OSD Mono, sans-serif;
+	font-family: 'QuaseVCR';
 	font-size: 5vh;
 	font-variant: small-caps;
 	line-height: 5vh;
