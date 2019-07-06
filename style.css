@@ -264,7 +264,6 @@ section {
 		word-wrap: break-word;
 		padding: 30px;
 		transition: all 0.6s ease-out;
-		pointer-events: none;
 	}
 	#background_home {
 		height: 100vh;
