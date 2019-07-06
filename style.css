@@ -250,8 +250,11 @@ section {
 		border-radius: 3px;
 	}
 	#navbar.open {
-		-webkit-clip-path: circle(1000px at 90% -10%);
-		
+		-webkit-clip-path: circle(1000px at 90% -10%);	
+	}
+	#navbar.close {
+		-webkit-clip-path: circle(40px at 80% 10%);
+		transition: all 0.6s ease-out;
 	}
 	#burger_menu.spin {
 		transform: rotate(360deg);
