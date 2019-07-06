@@ -69,11 +69,12 @@ var oupm = document.getElementById('link_oupm')
 var jorel = document.getElementById('link_jorel')
 var loja = document.getElementById('link_loja')
 var contato = document.getElementById('link_contato')
-
+var links = document.querySelectorAll('#menu ul')
 
 hamburger.addEventListener('click', () => {
 	navbar.classList.toggle('open')
 	hamburger.classList.toggle('spin')
+	links.style.pointerEvents = 'auto'
 })
 
 home.addEventListener('click', () => {
