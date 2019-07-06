@@ -252,6 +252,7 @@ section {
 	}
 	#navbar.open {
 		-webkit-clip-path: circle(1000px at 90% -10%);
+		pointer-events: auto;
 	}
 	#navbar ul.open {
 		pointer-events: auto;
