@@ -250,7 +250,6 @@ section {
 		border-radius: 3px;
 	}
 	#navbar.open {
-		background: blue;
 		-webkit-clip-path: circle(1000px at 90% -10%);
 		pointer-events: all;
 	}

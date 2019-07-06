@@ -74,7 +74,6 @@ var links = document.querySelectorAll('#menu ul')
 hamburger.addEventListener('click', () => {
 	navbar.classList.toggle('open')
 	hamburger.classList.toggle('spin')
-	links.style.pointerEvents = 'auto'
 })
 
 home.addEventListener('click', () => {
