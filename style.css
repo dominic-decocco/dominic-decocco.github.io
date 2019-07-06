@@ -229,11 +229,11 @@ section {
 		background-color: white;
 		-webkit-clip-path: circle(40px at 80% 10%);
 		transition: all 0.6s ease-out;
-		pointer-events: none;
 	}
 	#navbar ul {
 		position: fixed;
 		flex-direction: column;
+		pointer-events: none;
 	}
 	#burger_menu {
 		position: absolute;
@@ -264,6 +264,7 @@ section {
 		word-wrap: break-word;
 		padding: 30px;
 		transition: all 0.6s ease-out;
+		pointer-events: none;
 	}
 	#background_home {
 		height: 100vh;
