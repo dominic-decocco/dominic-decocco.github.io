@@ -252,8 +252,9 @@ section {
 	}
 	#navbar.open {
 		-webkit-clip-path: circle(1000px at 90% -10%);
+	}
+	#navbar ul.open {
 		pointer-events: auto;
-
 	}
 	#burger_menu.spin {
 		transform: rotate(360deg);
