@@ -62,11 +62,57 @@ $(window).scroll(function() {
 //hamburger menu interaction
 var hamburger = document.getElementById('burger_menu')
 var navbar = document.getElementById('navbar')
+var home = document.getElementById('link_home')
+var falha = document.getElementById('link_falha')
+var choque = document.getElementById('link_choque')
+var oupm = document.getElementById('link_oupm')
+var jorel = document.getElementById('link_jorel')
+var loja = document.getElementById('link_loja')
+var contato = document.getElementById('link_contato')
+
 
 hamburger.addEventListener('click', () => {
 	navbar.classList.toggle('open')
-	hamburger.classList.toggle('open')
-});
+	hamburger.classList.toggle('spin')
+})
+
+home.addEventListener('click', () => {
+	navbar.classList.toggle('open')
+	hamburger.classList.toggle('spin')
+})
+
+choque.addEventListener('click', () => {
+	hamburger.classList.toggle('spin')
+	navbar.classList.toggle('open')
+})
+
+falha.addEventListener('click', () => {
+	hamburger.classList.toggle('spin')
+	navbar.classList.toggle('open')
+})
+
+oupm.addEventListener('click', () => {
+	hamburger.classList.toggle('spin')
+	navbar.classList.toggle('open')
+})
+
+jorel.addEventListener('click', () => {
+	hamburger.classList.toggle('spin')
+	navbar.classList.toggle('open')
+})
+
+loja.addEventListener('click', () => {
+	hamburger.classList.toggle('spin')
+	navbar.classList.toggle('open')
+})
+
+contato.addEventListener('click', () => {
+	hamburger.classList.toggle('spin')
+	navbar.classList.toggle('open')
+})
+
+
+
 
 
 
